@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Icon(
                   Icons.bloodtype_outlined,
                   size: 75,
-                  color: Colors.red,
+                  color: Color.fromRGBO(255, 81, 81, 1),
                 ),
               ),
             ),

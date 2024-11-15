@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Color.fromRGBO(244, 67, 54, 1),
         title: Center(
           child: Text(
             'Need Blood',
@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               "Donate Blood",
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
             )
           ],
         ),
